@@ -195,7 +195,7 @@ app.get('/history', async (req, res) => {
 
 
 app.listen(PORT,'0.0.0.0', () => {
-  console.log(`Server is running on http://16.171.25.237:${PORT}`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
 connectToMongo();
   
