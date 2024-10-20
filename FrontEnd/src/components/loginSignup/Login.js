@@ -12,7 +12,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://16.171.25.237:3001/logIn', {
+      const response = await axios.post('http://16.171.25.237:8000/logIn', {
         email:{setEmail},
         password:{setPassword}
       });

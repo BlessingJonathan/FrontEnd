@@ -22,7 +22,7 @@ import axios from "axios";
     event.preventDefault();
 
     try {
-      const response = await axios.post('http://16.171.25.237:3001/signUp', {
+      const response = await axios.post('http://16.171.25.237:8000/signUp', {
         username,
         email,
         password,
